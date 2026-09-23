@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header class="header">      
+        <div class="logo-container">
+        <div >
+            <span class="logo-icon">C$</span>
+        </div>
+         <div >
+            <stong class="logo-text">Currency </stong>
+            <span>Converter</span>
+         </div>
+          
+         </div>
+        
+        <img src="./assets/gif1.gif" alt="Logo do conversor de moedas" class="logo">
+       
+    </header>
+
+    <main>
+
+          <h1 class="title">
+                <b>Instantly Convert Currency</b>
+         </h1>
+        <section>
+           <div class="container">
+            <label class="name-label"><span>Convert <b>From: </b> </span> 
+            
+                           
+                <select class="currency-select-from">
+
+                <option value="real"> R$ Real Brasileiro </option>
+                <option value="dolar">US$ Dólar americano </option>
+                <option value="euro" >€ Euro </option>
+                <option value="libra" >£ Libra </option>
+                <option value="bitcoin" >₿ Bitcoin </option>
+                <option value="iene" >¥ Iene Japonês </option>
+                
+                </select>            
+        
+            </label>
+            </div>
+           
+            <div class="container">
+            <label class="name-label"> <span>Convert <b>To: </b> </span>
+                
+               <select class="currency-select-from">
+
+                    <option value="dolar" >US$ Dólar americano </option>
+                    <option value="euro" >€ Euro </option>
+                    <option value="libra" >£ Libra </option>
+                    <option value="bitcoin" >₿ Bitcoin </option>
+                    <option value="iene" >¥ Iene japonês </option>
+                    <option value="real"> R$ Real brasileiro </option>
+               
+                </select>  
+
+            </label>
+            
+            </div>
+
+            <div class="container">
+             <label class="name-label">
+                 Value: 
+                 
+               <input type="number"  placeholder="0.00" id="value-origin" >   
+
+                </label>
+            
+            </div>
+            <button id="convert-button">Convert</button>
+            
+
+        </section>
+
+        <section class="container-result">
+            <div class="result">
+                <img class="national-flag" src="./assets/brasil.png" alt="Bandeira do país de origem" class="flag">
+                <h2 class="name-currency">Real </h2>
+                <p class="result" id="value-origin">0.00</p>
+               <span> <img class="arrow" src="./assets/arrow.png" alt="Seta de conversão"></span>
+                <img class="national-flag" src="./assets/usa.png" alt="Bandeira do país de destino" class="flag">
+                <h2 class="name-currency">Dólar Americano</h2>
+                <p id="value-destination">0.00</p>
+            </div>
+        
+        </section>
+    </main>
+</body>
+</html>
