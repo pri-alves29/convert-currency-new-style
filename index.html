@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    
 
 </head>
 <body>
@@ -42,11 +42,7 @@
                 <select class="currency-select-from">
 
                 <option value="real"> R$ Real Brasileiro </option>
-                <option value="dolar">US$ Dólar americano </option>
-                <option value="euro" >€ Euro </option>
-                <option value="libra" >£ Libra </option>
-                <option value="bitcoin" >₿ Bitcoin </option>
-                <option value="iene" >¥ Iene Japonês </option>
+               
                 
                 </select>            
         
@@ -56,7 +52,7 @@
             <div class="container">
             <label class="name-label"> <span>Convert <b>To: </b> </span>
                 
-               <select class="currency-select-from">
+               <select class="currency-select-to" >
 
                     <option value="dolar" >US$ Dólar americano </option>
                     <option value="euro" >€ Euro </option>
@@ -87,16 +83,19 @@
 
         <section class="container-result">
             <div class="result">
-                <img class="national-flag" src="./assets/brasil.png" alt="Bandeira do país de origem" class="flag">
+                <img class="national-flag" src="./assets/brasil.png" alt="Bandeira do país de origem" id="flag-origin">
                 <h2 class="name-currency">Real </h2>
-                <p class="result" id="value-origin">0.00</p>
+                <p class="result" id="result-origin">0.00</p>
                <span> <img class="arrow" src="./assets/arrow.png" alt="Seta de conversão"></span>
-                <img class="national-flag" src="./assets/usa.png" alt="Bandeira do país de destino" class="flag">
-                <h2 class="name-currency">Dólar Americano</h2>
-                <p id="value-destination">0.00</p>
+                <img class="national-flag-destination" src="./assets/usa.png" alt="Bandeira do país de destino" id="flag-destination">
+                <h2 class="name-currency-destination">Dólar Americano</h2>
+                <p class="result" id="result-destination">0.00</p>
             </div>
         
         </section>
     </main>
 </body>
+
+<script src="./script.js"></script>
+
 </html>
