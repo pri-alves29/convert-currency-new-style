@@ -89,7 +89,7 @@ main{
   width: 250px;
 }
 
-.currency-select-from, #value-origin{
+.currency-select-from, .currency-select-to, #value-origin{
   
   width: 327px;
   height: 48px;
@@ -109,7 +109,7 @@ opacity: 1;
 cursor: pointer;
 
 }
-.national-flag{
+.national-flag, .national-flag-destination{
   width: 44px;
   height: 44px;
 
@@ -146,7 +146,7 @@ cursor: pointer;
   margin: 12px auto;
 }
 
-.name-currency{
+.name-currency, .name-currency-destination{
  
 font-size: 14px;
 line-height: 18px;
@@ -154,7 +154,7 @@ color: #777777;
 
 }
 
-#value-origin, #value-destination{
+#result-origin, #result-destination{
 
 font-weight: 700;
 font-size: 20px;
