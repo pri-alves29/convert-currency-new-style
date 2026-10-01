@@ -1,3 +1,4 @@
+<img width="1008" height="608" alt="img convert-currency-new-style" src="https://github.com/user-attachments/assets/65189e00-f765-4c44-a3d4-31f4fa7d03e1" />
 # 💱 Instantly Convert Currency
 
 Uma aplicação web simples, moderna e responsiva desenvolvida para realizar conversões de moedas de forma prática e rápida.
